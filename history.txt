@@ -1,0 +1,195 @@
+    1  cd /tmp/
+    2  ls
+    3  rpm -i vmware-appdirector-agent-service_1.0.0.0-0_x86_64.rpm 
+    4  chkconfig --list
+    5  ls -l /opt/AppDirectorAgent/
+    6  ls /etc/rc3.d/
+    7  ls /etc/rc2.d/
+    8  ls /etc/rc1.d/
+    9  /opt/AppDirectorAgent/ovfenv 
+   10  /opt/AppDirectorAgent/ovfenv vCloud_ip_0
+   11  /opt/AppDirectorAgent/ovfenv -k vCloud_ip_0
+   12  vmware-rpctool "info-get guestinfo.gc.status"
+   13  ls /opt/AppDirectorAgent/
+   14  /etc/init.d/appdirector_agent_service 
+   15  ls
+   16  cd /opt/AppDirectorAgent/
+   17  ls
+   18  vi appdirector_agent
+   19  vi appdirector_agent.log 
+   20  vi appdirector_agent
+   21  /etc/init.d/appdirector_agent_service 
+   22  ifconfig
+   23  cat /tmp/appd.properties 
+   24  vi /tmp/appd.properties
+   25  vi /tmp/appd.properties
+   26  /etc/init.d/appdirector_agent_service 
+   27  vi appdirector_agent.log 
+   28  vi appdirector_agent
+   29  ls
+   30  rm nobel-agent.jar 
+   31  /etc/init.d/appdirector_agent_service 
+   32  ls
+   33  rm darwin-agent2011-09-29.log nobel-agent.jar appdirector_agent.log
+   34  ls
+   35  cd ..
+   36  ls
+   37  rpm -qa | grep appd
+   38  ls /tmp/
+   39  rm /tmp/appd.properties 
+   40  ls
+   41  ls AppDirectorAgent/
+   42  ls
+   43  ls
+   44  wget http://10.20.80.32:8080/darwin/agent/nobel-agent.jar
+   45  ls
+   46  rm nobel-agent.jar 
+   47  ls
+   48  ll
+   49  exit
+   50  cd /tmp/
+   51  ll
+   52  cat appd.properties 
+   53  cd /opt/AppDirectorAgent/
+   54  ls -l
+   55  ./ovfenv 
+   56  clear
+   57  ls 
+   58  vi appdirector_agent
+   59  ip addr
+   60  exit
+   61  /opt/vmware-appdirector/agent-bootstrap/agent_reset.sh 
+   62  rpm -qa | grep appd
+   63  rpm -e vmware-appdirector-agent-service
+   64  rm -rf /opt/vmware-appdirector
+   65  cd /tmp/
+   66  ls
+   67  rm -rf vmware-appdirector-agent-service_1.0.0.0-0_x86_64.rpm vmware-root
+   68  ls
+   69  ifconfig
+   70  ls
+   71  rpm -i vmware-appdirector-agent-service_1.0.0.0-0_x86_64.rpm 
+   72  vi /opt/vmware-appdirector/agent-bootstrap/agent_bootstrap.sh
+   73  vi /opt/vmware-appdirector/agent-bootstrap/vmware_appdirector_agent 
+   74  ls
+   75  /opt/vmware-appdirector/agent-bootstrap/agent_reset.sh 
+   76  rpm -qa | grep appd
+   77  rpm -e vmware-appdirector-agent-service
+   78  cd /tmp/
+   79  ls
+   80  ls /opt/vmware/
+   81  rm -rf vmware-*
+   82  ls
+   83  ls
+   84  rpm -i vmware-appdirector-agent-service_1.0.0.0-0_x86_64.rpm 
+   85  vi /opt/vmware-appdirector/agent-bootstrap/agent_diagnose.sh 
+   86  exit
+   87  /opt/vmware-appdirector/agent-bootstrap/agent_reset.sh 
+   88  rpm -qa | grep appd
+   89  rpm -e vmware-appdirector-agent-service
+   90  ls /opt/
+   91  cd /tmp/
+   92  ls
+   93  rm -rf vmware-*
+   94  ls
+   95  ls
+   96  rpm -i vmware-appdirector-agent-service_1.0.0.0-0_x86_64.rpm 
+   97  vi /etc/init.d/vmware_appdirector_agent 
+   98  rm -rf /etc/ssh/ssh_host_*
+   99  service vmware_appdirector_agent status
+  100  service vmware_appdirector_agent stop
+  101  ls /opt/vmware-appdirector/
+  102  exit
+  103  cd /tmp
+  104  ls
+  105  tar -cvf 1044_DevWS.tar 1044
+  106  mv 1044 DevelopmentWorkstation
+  107  tar -cvf DevelopmentWorkstation.tar DevelopmentWorkstation
+  108  ftp 173.240.100.21
+  109  ping github.com
+  110  yum install git-core
+  111  wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.i386.rpm
+  112  rpm -i rpmforge-release-0.5.2-2.el5.rf.i386.rpm 
+  113  yum install git-core
+  114  gzip DevelopmentWorkstation.tar 
+  115  git remote add DevelopmentWorkstation.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  116  git clone https://github.com/hsanjay/NewUpdatedSolution.git
+  117  ls
+  118  git clone http://github.com/hsanjay/NewUpdatedSolution.git
+  119  ping github.com
+  120  git clone https://github.com/hsanjay/NewUpdatedSolution.git
+  121  git config --global http.sslVerify false
+  122  git clone https://github.com/hsanjay/NewUpdatedSolution.git
+  123  ls
+  124  mv DevelopmentWorkstation.tar.gz NewUpdatedSolution/.git/
+  125  cd NewUpdatedSolution/
+  126  ls
+  127  git remote add DevelopmentWorkstation.tar.gz 
+  128  git add DevelopmentWorkstation.tar.gz 
+  129  git remote add DevelopmentWorkstation.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  130  ftp 173.240.100.21
+  131  git remote add DevelopmentEnvironment.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  132  git commit -m "Initial Version"
+  133  git config  --global hsanjay.email "hakkisanjay@gmail.com"
+  134  git config  --global hsanjay.name "Sanjay Hakki"
+  135  git commit -m "Initial Version"
+  136  git config hsanjay.name "Sanjay Hakki"
+  137  git config hsanjay.email "hakkisanjay@gmail.com"
+  138  git commit -m "Initial Version"
+  139  cd ..
+  140  git commit -m "Initial Version"
+  141  cd NewUpdatedSolution/
+  142  git commit -m "Initial Version"
+  143  git config  --global hsanjay.email "hakkisanjay@gmail.com"
+  144  git config --global -l
+  145  git commit -m "Initial Version"
+  146  git init
+  147  git commit -m "Initial Version"
+  148  git config  --global user.email "hakkisanjay@gmail.com"
+  149  git config --global user.name "Sanjay Hakki"
+  150  git commit -m "Initial Version"
+  151  ls
+  152  cd ..
+  153  ls
+  154  cd NewUpdatedSolution/
+  155  ls
+  156  ftp 173.240.100.21
+  157  ls
+  158  git add Development*
+  159  git commit -m "Initial Version"
+  160  git push -u
+  161  git push -u
+  162  git push -u master
+  163  git push -u 
+  164* 
+  165  git push -u NewUpdatedSolution master
+  166  cd ..
+  167  git push -u NewUpdatedSolution master
+  168  cd NewUpdatedSolution/
+  169  git commit -m "Initial Version"
+  170  ls
+  171  git push . master
+  172  git push -u . master
+  173  git push -u Development* master
+  174  git remote add DevelopmentEnvironment.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  175  git remote add DevelopmentWorkstation.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  176  git commit -m "Initial Version."
+  177  cd ..
+  178  mkdir vmware
+  179  cd vmware
+  180  cp ../NewUpdatedSolution/D* .
+  181  ls
+  182  git init
+  183  git add Development*
+  184  git remote add DevelopmentWorkstation.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  185  git commit -m "Initial Version."
+  186  git remote commit -m "Initial Version."
+  187  git commit
+  188  git remote rm NewUpdatedSolution
+  189  cd ../NewUpdatedSolution/
+  190  git remote rm NewUpdatedSolution
+  191  git remote add origin DevelopmentWorkstation.tar.gz https://github.com/hsanjay/NewUpdatedSolution.git
+  192  git push origin master
+  193  history
+  194  ls
+  195  history >> history.txt
